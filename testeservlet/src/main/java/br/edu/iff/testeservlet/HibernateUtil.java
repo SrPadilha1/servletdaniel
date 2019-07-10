@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package br.edu.iff.testeservlet;
-
 import entidades.Usuario;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

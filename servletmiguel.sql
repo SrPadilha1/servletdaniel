@@ -1,4 +1,4 @@
---
+﻿--
 -- PostgreSQL database dump
 --
 
@@ -56,8 +56,7 @@ ALTER TABLE usuario OWNER TO postgres;
 -- Data for Name: usuario; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY usuario (nome) FROM stdin;
-\.
+
 
 
 --
