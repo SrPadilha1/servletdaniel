@@ -77,7 +77,7 @@ public class servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
             Usuario usuario = new Usuario();
-            usuario.setNome(request.getParameter("name"));
+            usuario.setNome(request.getParameter("nome"));
             Session sessionRecheio;
             sessionRecheio = HibernateUtil.getSession();
             Transaction tr = sessionRecheio.beginTransaction();
